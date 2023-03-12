@@ -1,1 +1,0 @@
-https://github.com/ozlemkucuksagir/RESPONSIVE_WEB_DESIGN

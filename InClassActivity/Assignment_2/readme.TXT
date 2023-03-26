@@ -1,0 +1,1 @@
+ozlemkucuksagir.github.io/InClassActivity/Assignment_2/Activity2.html

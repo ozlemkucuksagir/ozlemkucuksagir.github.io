@@ -22,14 +22,14 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/ocean.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/ocean.jpg);/* I added the background image here. */
     height: 100vh;
     background-size: cover;
     background-position: center;
     min-height: 100px;
 }
 
-.logo img {
+.logo img {/*I designed the style here with css to add my own designed logo*/
     position: relative;
     float: left;
     width: 150px;
@@ -63,10 +63,10 @@ ul li a {
 
 }
 
-ul li::after {
+ul li::after {/*When hovering over the element of the list, a line appears under it.*/
     content: '';
     height: 3px;
-    width: 0;
+    width: 0;/*line size 0*/
     background:   rgb(153, 99, 120);
     position: absolute;
     left: 0;
@@ -76,8 +76,12 @@ ul li::after {
 
 }
 
+ul li:hover::after {
+    width: 100%;/*line size 100%*/
+}
+
 #current {
-    color:  rgb(247, 157, 192);
+    color:  rgb(247, 157, 192);/*the color of the text of the page it is on*/
 }
 
 #littleInfo {
@@ -86,9 +90,7 @@ ul li::after {
 
 }
 
-ul li:hover::after {
-    width: 100%;
-}
+
 
 .main {
     max-width: 1200px;
@@ -96,14 +98,6 @@ ul li:hover::after {
 }
 
 
-.icons {
-
-    position: relative;
-    margin-bottom: 50%;
-    color: white;
-    width: 70px;
-
-}
 
 .row {
 
@@ -118,7 +112,7 @@ ul li:hover::after {
     text-align: left;
 }
 
-.card {
+.card {/*cards design*/
     width: 40%;
     height: 50%;
     display: inline-block;
@@ -131,7 +125,7 @@ ul li:hover::after {
     background-size: cover;
     transition: transform 0.5s;
 }
-
+/*for activity cards*/
 .cardActivities1 {
     background-image: url(images/activities1.jpg);
 }
@@ -148,7 +142,7 @@ ul li:hover::after {
     background-image: url(images/activities4.jpg);
 }
 
-
+/*for menu cards*/
 .cardMenu1 {
     background-image: url(images/menu1.jpg);
 }
@@ -165,7 +159,7 @@ ul li:hover::after {
     background-image: url(images/menu4.jpg);
 }
 
-
+/*for pool cards*/
 .cardPool1 {
     background-image: url(images/pool1.jpg);
 }
@@ -183,7 +177,7 @@ ul li:hover::after {
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-10px);/*when hovering over the card*/
 }
 
 
@@ -203,7 +197,7 @@ ul li:hover::after {
     margin-top: 80px;
 }
 
-#tiny {
+#tiny {/*Added id*/
 
     font-style: italic;
 
@@ -245,7 +239,7 @@ button {
     overflow: hidden;
 }
 
-span {
+span {/*The design of the span tag I use when hovering over the button*/
     background: rgba(182, 116, 141, 0.466);
     height: 100%;
     width: 0;
@@ -275,7 +269,7 @@ button:hover {
 
 
 
-button a {
+button a {/*design of buttons with routing*/
 
     text-decoration: none;
     color: #fff;

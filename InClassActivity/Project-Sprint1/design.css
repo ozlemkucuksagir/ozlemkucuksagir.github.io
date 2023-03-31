@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/ocean.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+.logo img {
+    position: relative;
+    float: left;
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 60px;
+
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background:   rgb(153, 99, 120);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+
+
+}
+
+#current {
+    color:  rgb(247, 157, 192);
+}
+
+#littleInfo {
+    font-size: 13px;
+    color: grey;
+
+}
+
+ul li:hover::after {
+    width: 100%;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.icons {
+
+    position: relative;
+    margin-bottom: 50%;
+    color: white;
+    width: 70px;
+
+}
+
+.row {
+
+    display: flex;
+    height: 88%;
+
+}
+
+.column {
+    padding: 50px;
+
+    text-align: left;
+}
+
+.card {
+    width: 40%;
+    height: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.cardActivities1 {
+    background-image: url(images/activities1.jpg);
+}
+
+.cardActivities2 {
+    background-image: url(images/activities2.jpg);
+}
+
+.cardActivities3 {
+    background-image: url(images/activities3.jpg);
+}
+
+.cardActivities4 {
+    background-image: url(images/activities4.jpg);
+}
+
+
+.cardMenu1 {
+    background-image: url(images/menu1.jpg);
+}
+
+.cardMenu2 {
+    background-image: url(images/menu2.jpg);
+}
+
+.cardMenu3 {
+    background-image: url(images/menu3.jpg);
+}
+
+.cardMenu4 {
+    background-image: url(images/menu4.jpg);
+}
+
+
+.cardPool1 {
+    background-image: url(images/pool1.jpg);
+}
+
+.cardPool2 {
+    background-image: url(images/pool2.jpg);
+}
+
+.cardPool3 {
+    background-image: url(images/pool3.jpg);
+}
+
+.cardPool4 {
+    background-image: url(images/pool4.jpg);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+.content {
+    text-decoration: none;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.content h1 {
+
+    font-size: 90px;
+    margin-top: 80px;
+}
+
+#tiny {
+
+    font-style: italic;
+
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.content p {
+
+    padding-bottom: 50px;
+    font-weight: 100;
+    line-height: 25px;
+
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#italic {
+    font-style: italic;
+}
+
+
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #6beed896;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rgba(182, 116, 141, 0.466);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
+
+.column p {
+    font-size: 12px;
+}
+
+#bigger {
+    font-size: 16px;
+}
+
+
+
+button a {
+
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+}

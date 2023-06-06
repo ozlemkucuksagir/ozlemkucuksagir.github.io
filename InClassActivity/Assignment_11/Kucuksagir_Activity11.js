@@ -7,7 +7,7 @@ $(document).ready(function () {
         $("main").empty();
         $.getJSON(speakerFile, function (data) {
             debugger;           
-            $.each(data.speakers, function( speaker) {
+            $.each(data.speakers, function(index, speaker) {
                 var html = '<h1>' + speaker.title + '</h1>' +
                   '<img src="' + speaker.image + '">' +
                   '<h2>' + speaker.month + '<br>' + speaker.speaker + '</h2>' +

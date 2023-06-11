@@ -17,7 +17,7 @@ $(document).ready(function () {
 
                 if (card.card.name === myData) {
 
-                    var html = '<h2><br><br><br>' + card.card.title + '</h2>' +
+                    var html = '<h2>' + card.card.title + '</h2>' +
                         '<h3>' + card.card.extra + '</h3><br><br>' +
                         '<p>' + card.card.text + '</p>';
                     //Update columnChange

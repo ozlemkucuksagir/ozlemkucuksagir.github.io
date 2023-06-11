@@ -1,3 +1,7 @@
+ozlemkucuksagir.github.io/InClassActivity/Project-Sprint3_4/index.html
+
+***************************
+
 AJAX methods:
 -WEB: $.ajax({
         url: 'https://jsonplaceholder.typicode.com/users',
@@ -5,9 +9,10 @@ AJAX methods:
         success: function (response) {},
       });
 in ajaxWeb.js for about.html
+	//Sends a GET request to https://jsonplaceholder.typicode.com/users and updates the contents of the partnerships element using the response.
 
--file: $.getJSON(cardFile, function (data) {});  in ajax.js for click on activities.html, menu.html, pool.html
-
+-file: $.getJSON(cardFile, function (data) {});  in ajaxFile.js for click on activities.html, menu.html, pool.html
+	//Handles card clicks, gets data and JSON file name, clears the target, fetches JSON data, and updates the target with relevant content.
 
 ***************************
 

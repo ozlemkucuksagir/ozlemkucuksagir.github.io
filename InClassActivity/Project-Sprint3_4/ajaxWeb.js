@@ -1,3 +1,5 @@
+//Sends a GET request to https://jsonplaceholder.typicode.com/users and 
+//updates the contents of the partnerships element using the response.
 $(document).ready(function () {
     $.ajax({
         url: 'https://jsonplaceholder.typicode.com/users',
@@ -5,7 +7,7 @@ $(document).ready(function () {
         success: function (response) {
             var html = '';
 
-            // the user data
+            //The user data
             $.each(response, function (index, user) {
                 html += '<div>';
                 html += '<h3>' + user.name + '</h3>';

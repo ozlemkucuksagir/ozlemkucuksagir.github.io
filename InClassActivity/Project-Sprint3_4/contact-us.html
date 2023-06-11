@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>MetaOzce</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="jquery/jquery.js"></script>
+    <script src="jquery/jquery-ui.js"></script>
+    <script src="jquery/jquery.qtip.min.js"></script>
+    <script countries="JavaScript" src="sprint2.js"></script>
+    <script src="opacity.js"></script>
+    <script src="btnClick.js"></script>
+    <script src="checkbox.js"></script>
+    <script src="tooltip.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="jquery/jquery-ui.css">
+    <link rel="stylesheet" href="jquery/jquery.qtip.min.css">
+
+</head>
+
+<body>
+    <!-- This is the autoplay music. -->
+    <audio autoplay>
+        <source src="lobbymusic.mp3" type="audio/mpeg">
+    </audio>
+    <header>
+
+        <div class="header">
+            <div class="main">
+
+                <ul>
+                    <li class="list-style-1"><a href="index.html">Home</a></li>
+                    <li class="list-style-1"><a href="activities.html">Activities</a></li>
+                    <li class="list-style-1"><a href="pools.html">Pools</a></li>
+                    <li class="list-style-1"><a href="menu.html">Menu</a></li>
+                    <li class="list-style-1"><a href="about.html">About</a></li>
+                    <li class="list-style-1"><a href="contact-us.html" id="current">Contact-us</a></li>
+                    <li class="list-style-1"><a href="https://aybuzem.aybu.edu.tr/my/" id="littleInfo">19050111021</a>
+                        <link rel="stylesheet"
+                            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+
+
+
+
+    </header>
+    <div class="content" id="d1">
+        <!-- I divided the fomrBox into two parts, left and right, with a column -->
+        <div class="formBox">
+            <h2>Contact-us</h2>
+            <hr class="horizontal">
+            <div class="row">
+
+                <div class="column-left"> <!-- the left column with information -->
+                    <div class="address details">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="topic">Address</div>
+                        <div class="text-one">Yenimahalle, ANKARA</div>
+                        <div class="text-two">İSTANBUL</div>
+                    </div>
+                    <div class="phone details">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="topic">Phone</div>
+                        <div class="text-one">+1111 1111 1111</div>
+                        <div class="text-two">+0000 0000 0000</div>
+                    </div>
+                    <div class="email details">
+                        <i class="fas fa-envelope"></i>
+                        <div class="topic">Email</div>
+                        <div class="text-one">aybu@edu.tr</div>
+                        <div class="text-two">ozlemkucuksagir2@gmail.com</div>
+                    </div>
+                </div>
+                <hr class="vertical">
+                <div class="column-right"> <!-- the right column with the form-->
+
+                    <!--I used title property to send data to tooltip-->
+                    <!--I used onkeyup and onchange properties to trigger functions in validate.js-->
+                    <!--I used html Inner according to the return inside the functions in validate.js and showed them with span tag-->
+                    <div class="form-group">
+                        <label>*Name</label>
+                        <input id="name" type="text" placeholder="Name" title="Please enter your full name."
+                            onkeyup="validateName()">
+                        <span id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>*Surname</label>
+                        <input id="surname" type="text" placeholder="Surname" title="Please enter your full surname."
+                            onkeyup="validateSurname()">
+                        <span id="surname-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>*Country</label>
+                        <input id="autocomplete" type="text" placeholder="Country" title="Please select your country."
+                            onkeyup="validateCountry()">
+                        <span id="country-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Birthday</label>
+                        <input id="birthday" placeholder="Birthday" type="text" title="Please select your birthday.">
+
+                    </div>
+                    <div class="form-group">
+                        <label>*E-mail</label>
+                        <input id="email" type="email" placeholder="Enter a valid email address"
+                            title="Please enter your e-mail." onkeyup="validateEmail()">
+                        <span id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>*Comment</label>
+                        <textarea id="comment" type="text" rows="2" placeholder="Your message"
+                            title="Please enter your commment." onkeyup="validateComment()"></textarea>
+                        <span id="comment-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label id=checkboxLabel for="checkBox1"> ***I agree to the terms and conditions.</label>
+                        <input id="checkBox1" style="visibility:hidden;" type="checkbox" name="myCheckBox"
+                            onchange="validateCheck()"></input>
+                        <span id="checkBox-error"></span>
+                    </div>
+
+                    <div>
+                        <button class="submit-button" type="submit">SUBMIT</button>
+                        <span id="submit-error"></span>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="validate.js"></script>
+    <footer>
+        <p>© 2023 Kozi</p>
+    </footer>
+</body>

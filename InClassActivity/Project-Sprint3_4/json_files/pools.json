@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "card": {
+                "name": "cardPool1",
+                "extra": "Maintenance: 9am",
+                "title": "Luxery Pool",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        },
+        {
+            "card": {
+                "name": "cardPool2",
+                "extra": "Maintenance: 8am",
+                "title": "Big Pool",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        },
+        {
+            "card": {
+                "name": "cardPool3",
+                "extra": "Maintenance: 11am",
+                "title": "AquaPark",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        },
+        {
+            "card": {
+                "name": "cardPool4",
+                "extra": "Maintenance: 10am",
+                "title": "Children Pool",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        }
+    ]
+}

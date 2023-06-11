@@ -1,0 +1,36 @@
+{
+    "cards": [
+        {
+            "card": {
+                "name": "cardActivities1",
+                "extra": "TIME: 5pm",
+                "title": "Walking on the Beach",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        },
+        {
+            "card": {
+                "name": "cardActivities2",
+                "extra": "TIME: 2pm",
+                "title": "Scuba Diving",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        },
+        {
+            "card": {
+                "name": "cardActivities3",
+                "extra": "TIME: 11am",
+                "title": "Beach Voleyball",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        },
+        {
+            "card": {
+                "name": "cardActivities4",
+                "extra": "TIME: 6pm",
+                "title": "Yoga",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam semper rutrum ipsum id molestie. Nam ornare placerat aliquet. Aliquam eget enim rutrum, pellentesque lacus ac, pretium velit. Etiam eget varius leo, vitae tempor mi. Etiam at magna orci. Suspendisse potenti. Nam eu arcu vel elit vestibulum tempus. In vitae malesuada nulla. Sed justo augue, vehicula vitae consequat ac, tempor eu tortor."
+            }
+        }
+    ]
+}
